@@ -8,3 +8,7 @@ export default defineConfig({
     tailwindcss(),
   ],
 });
+function tailwindcss(): import("vite").PluginOption {
+  throw new Error('Function not implemented.');
+}
+

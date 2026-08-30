@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
-  base: '/seating-management-system/',
+  base: './',
   plugins: [
     react(),
     tailwindcss(),
